@@ -273,9 +273,15 @@
         #widget h1 {
             font-size: 20px;
         }
+        #widget {
+            height: auto;
+        }
         #widget .desc {
             visibility: hidden;
             margin: 0px;
-            height: 60px;
+            height: 30px;
+        }
+        #widget h1.main_text {
+            white-space: inherit;
         }
     }
