@@ -149,6 +149,13 @@ h1 {
     cursor: pointer;
 }
 
+#widget .btn_addtocart .btn_addtocart_content:hover {
+    background: #87c431;
+    background: -webkit-linear-gradient( top, #87c431 5%, #6fa720 95%);
+    background: linear-gradient( to bottom, #87c431 5%, #6fa720 95%);
+    background: linear-gradient( to right, #87c431 5%, #6fa720 95%);
+}
+
 .btn_addtocart .btn_addtocart_content {
     display: inline-block;
     height: 34px;
