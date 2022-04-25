@@ -1,0 +1,240 @@
+#widget {
+    border: 1px solid #2d3139;
+    background-color: #282e39;
+    width: 614px;
+    height: 146px;
+    padding: 10px 15px;
+    position: relative;
+    margin: 0 auto;
+    background-image: url(widget-img/steam_ico.png);
+    background-repeat: no-repeat;
+    background-position-x: 99%;
+    background-position-y: 5px;
+}
+
+div {
+    display: block;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#widget .desc {
+    margin: 10px 10px 0 0;
+    font-size: 13px;
+    color: #c9c9c9;
+    line-height: 16px;
+    max-height: 96px;
+    overflow: hidden;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+user agent stylesheet div {
+    display: block;
+}
+
+#widget h1.main_text {
+    color: #fefefe;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 425px;
+}
+
+#widget h1 {
+    font-size: 21px;
+    font-weight: normal;
+    vertical-align: top;
+    display: inline-block;
+    line-height: 28px;
+}
+
+#widget h1 em {
+    font-weight: normal;
+    font-style: normal;
+    color: #9e9e9e;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+#widget .game_purchase_action .game_purchase_price,
+#widget .game_purchase_action .game_purchase_discount,
+#widget .game_purchase_action .btn_addtocart,
+#widget .game_purchase_action .btn_packageinfo,
+#widget .game_purchase_action .game_purchase_action_bg .game_purchase_action .game_purchase_action_qty {
+    box-shadow: 2px 2px 10px rgb(0 0 0 / 50%);
+}
+
+.game_purchase_action .game_purchase_price {
+    background-color: #000000;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
+    height: 26px;
+}
+
+.game_purchase_action .game_purchase_price,
+.game_purchase_action .game_purchase_discount,
+.game_purchase_action .btn_addtocart,
+.game_purchase_action .btn_packageinfo,
+.game_purchase_action .game_purchase_action_bg .game_purchase_action .game_purchase_action_qty {
+    float: left;
+    margin-left: 3px;
+}
+
+.price,
+.match_price {
+    font-family: tahoma, helvetica, arial, trebuchet ms, sans-serif;
+    font-size: 11px;
+    color: #b0aeac;
+}
+
+#widget .btn_addtocart .btn_addtocart_content {
+    display: inline-block;
+    height: 34px;
+    font-size: 14px;
+    color: #d2efa9;
+    text-shadow: 1px 1px 2px rgb(0 0 0 / 30%);
+    text-align: center;
+    padding: 0px 11px;
+    line-height: 34px;
+    border-radius: 2px;
+    text-transform: unset;
+    background: #75b022;
+    background: -webkit-linear-gradient( top, #6fa720 5%, #588a1b 95%);
+    background: linear-gradient( to bottom, #6fa720 5%, #588a1b 95%);
+    background: linear-gradient( to right, #6fa720 5%, #588a1b 95%);
+    cursor: pointer;
+}
+
+.btn_addtocart .btn_addtocart_content {
+    display: inline-block;
+    height: 34px;
+    font-size: 11px;
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 11px;
+    line-height: 34px;
+    background-image: url(/public/images/v5/btn_addtocart_repeat.gif);
+    background-repeat: repeat-x;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+span.platform_img.win {
+    background-image: url(widget-img/platform_win.png);
+}
+
+span.platform_img.mac {
+    background-image: url(widget-img/platform_mac.png);
+}
+
+span.platform_img.linux {
+    background-image: url(widget-img/platform_linux.png);
+}
+
+span.platform_img {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    background-repeat: no-repeat;
+}
+
+img.platform_small,
+.platform_img {
+    vertical-align: middle;
+    margin-right: 1px;
+}
+
+:root {
+    --gpSystemLightestGrey: #DCDEDF;
+    --gpSystemLighterGrey: #B8BCBF;
+    --gpSystemLightGrey: #8B929A;
+    --gpSystemGrey: #67707B;
+    --gpSystemDarkGrey: #3D4450;
+    --gpSystemDarkerGrey: #23262E;
+    --gpSystemDarkestGrey: #0E141B;
+    --gpStoreLightestGrey: #CCD8E3;
+    --gpStoreLighterGrey: #A7BACC;
+    --gpStoreLightGrey: #7C8EA3;
+    --gpStoreGrey: #4e697d;
+    --gpStoreDarkGrey: #2A475E;
+    --gpStoreDarkerGrey: #1B2838;
+    --gpStoreDarkestGrey: #000F18;
+    /* --gpGradient-StoreBackground: radial-gradient(farthest-corner at 40px 40px,#2A475E 0%, #1B2838 80%); */
+    --gpGradient-StoreBackground: linear-gradient(180deg, var(--gpStoreDarkGrey) 0%, var(--gpStoreDarkerGrey) 80%);
+    --gpGradient-LibraryBackground: radial-gradient(farthest-corner at 40px 40px, #3D4450 0%, #23262E 80%);
+    --gpColor-Blue: #1A9FFF;
+    --gpColor-BlueHi: #00BBFF;
+    --gpColor-Green: #5ba32b;
+    --gpColor-GreenHi: #59BF40;
+    --gpColor-Orange: #E35E1C;
+    --gpColor-Red: #D94126;
+    --gpColor-RedHi: #EE563B;
+    --gpColor-DustyBlue: #417a9b;
+    --gpColor-LightBlue: #B3DFFF;
+    --gpColor-Yellow: #FFC82C;
+    --gpColor-ChalkyBlue: #66C0F4;
+    --gpBackground-LightSofter: #6998bb24;
+    --gpBackground-LightSoft: #3b5a7280;
+    --gpBackground-LightMedium: #678BA670;
+    --gpBackground-LightHard: #93B8D480;
+    --gpBackground-LightHarder: #aacce6a6;
+    --gpBackground-DarkSofter: #0e141b33;
+    --gpBackground-DarkSoft: #0e141b66;
+    --gpBackground-DarkMedium: #0e141b99;
+    --gpBackground-DarkHard: #0e141bcc;
+    --gpBackground-Neutral-LightSofter: rgba(235, 246, 255, 0.10);
+    --gpBackground-Neutral-LightSoft: rgba(235, 246, 255, 0.20);
+    --gpBackground-Neutral-LightMedium: rgba(235, 246, 255, 0.30);
+    --gpBackground-Neutral-LightHard: rgba(235, 246, 255, 0.40);
+    --gpBackground-Neutral-LightHarder: rgba(235, 246, 255, 0.50);
+    --gpCorner-Small: 1px;
+    --gpCorner-Medium: 2px;
+    --gpCorner-Large: 3px;
+    --gpSpace-Gutter: 24px;
+    --gpSpace-Gap: 12px;
+    --gpNavWidth: 240px;
+    --gpPaymentsNavWidth: 40vw;
+    --gpPurchaseOptionsWidth: 270px;
+    --gpDselectWidth: 320px;
+    --gpSidePanelWidth: 348px;
+    --gpGiftingPanelWidth: 280px;
+    --screen-width: 100vw;
+    --gpWidth-4colcap: calc((var(--screen-width) - (3 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 4);
+    --gpWidth-3colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 3);
+    --gpWidth-2colcap: calc((var(--screen-width) - (1 * var(--gpSpace-Gap)) - (2 * var(--gpSpace-Gutter))) / 2);
+    --gpWidth-1colcap: calc((var(--screen-width) - (2 * var(--gpSpace-Gutter))));
+    --gpStoreMenuHeight: 58px;
+    --gpShadow-Small: 0px 2px 2px 0px #0000003D;
+    --gpShadow-Medium: 0px 3px 6px 0px #0000003D;
+    --gpShadow-Large: 0px 12px 16px 0px #0000003D;
+    --gpShadow-XLarge: 0px 24px 32px 0px #0000003D;
+    --gpText-HeadingLarge: normal 700 26px/1.4 "Motiva Sans", Arial, Sans-serif;
+    --gpText-HeadingMedium: normal 700 22px/1.4 "Motiva Sans", Arial, Sans-serif;
+    --gpText-HeadingSmall: normal 700 18px/1.4 "Motiva Sans", Arial, Sans-serif;
+    --gpText-BodyLarge: normal 400 16px/1.4 "Motiva Sans", Arial, Sans-serif;
+    --gpText-BodyMedium: normal 400 14px/1.4 "Motiva Sans", Arial, Sans-serif;
+    --gpText-BodySmall: normal 400 12px/1.4 "Motiva Sans", Arial, Sans-serif;
+    --gpTransition-Short: all 0.2s ease;
+    --gpTransition-Shorter: all 0.1s ease;
+}
