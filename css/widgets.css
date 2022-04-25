@@ -1,7 +1,7 @@
 #widget {
     border: 1px solid #2d3139;
     background-color: #282e39;
-    height: 198px;
+    height: 146px;
     padding: 10px 15px;
     position: relative;
     margin: 0 auto;
@@ -9,6 +9,12 @@
     background-repeat: no-repeat;
     background-position-x: 99%;
     background-position-y: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    font-size: 12px;
 }
 
 div {
@@ -34,12 +40,17 @@ a {
     overflow: hidden;
 }
 
+#widget .capsule {
+    float: left;
+    margin: 2px 10px 10px 0;
+}
+
 * {
     margin: 0px;
     padding: 0px;
 }
 
-user agent stylesheet div {
+div {
     display: block;
 }
 
@@ -98,6 +109,19 @@ h1 {
 .game_purchase_action .game_purchase_action_bg .game_purchase_action .game_purchase_action_qty {
     float: left;
     margin-left: 3px;
+}
+
+#widget .game_purchase_action_bg {
+    background: transparent;
+}
+
+.game_purchase_action_bg {
+    height: 34px;
+    background-color: #3c3d3e;
+    padding: 3px 3px 3px 0px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    float: right;
 }
 
 .price,
